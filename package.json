@@ -1,0 +1,37 @@
+{
+  "name": "Mscript",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "rnpm": {
+    "assets": [
+      "./assets/fonts"
+    ]
+  },
+  "dependencies": {
+    "@expo/vector-icons": "^6.3.1",
+    "@terrylinla/react-native-sketch-canvas": "^0.3.1",
+    "firebase": "^4.12.1",
+    "native-base": "^2.3.10",
+    "react": "16.3.0-alpha.1",
+    "react-native": "0.54.0",
+    "react-native-modal": "^5.3.0",
+    "react-native-router-flux": "^4.0.0-beta.28",
+    "react-native-sketch-draw": "^2.0.2",
+    "react-native-svg": "^6.3.1",
+    "rn-draw": "0.0.6",
+    "styled-components": "^3.2.6"
+  },
+  "devDependencies": {
+    "babel-jest": "22.4.1",
+    "babel-preset-react-native": "4.0.0",
+    "jest": "22.4.2",
+    "react-test-renderer": "16.3.0-alpha.1"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
